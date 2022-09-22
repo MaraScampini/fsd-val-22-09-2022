@@ -1,0 +1,259 @@
+body {
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+#head {
+    background-color: red;
+    height: 10vh;
+    display: flex;
+}
+
+.head-c {
+    width: 50vw;
+    height: 10vh;
+}
+
+#head-left {
+    background-color: white;
+    display: flex;
+}
+
+.head-links {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 10px 7px 0 5px;
+}
+
+.head-links:hover {
+    text-decoration: underline;
+}
+
+#head-right {
+    background-color: white;
+    display: flex;
+    justify-content: right;
+}
+
+/* revisar */
+
+#desplegable {
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+#login {
+    width: 100px;
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 10px;
+    background-color: rgb(52, 52, 230);
+    border-radius: 4px;
+    border: 0px;
+    color: white;
+}
+
+#login:hover {
+    background-color: rgb(30, 30, 174);
+    cursor: pointer;
+}
+
+/* main */
+
+#main {
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    min-width: 50vw;
+}
+
+#main-info {
+    background-color: white;
+    width: 50vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    background-color:white;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-img {
+    height: 60%;
+}
+
+/* barra de búsqueda */
+
+#input-box {
+    background-color: white;
+    width: 38vw;
+    display: flex;
+    border-radius: 25px;
+    border: 1px lightgrey solid;
+    margin: 2px 2px 2px 2px;
+}
+
+#input-box:hover {
+    box-shadow: 0 0 5px lightgrey;
+}
+
+#input-images {
+    background-color: white;
+    width: 38vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 25px;
+}
+
+#input-images-lupa {
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+}
+
+#input-images-lupa-img {
+    height: 13px;
+    padding: 5px;
+}
+
+#input-input {
+    width: 32vw;
+    border: none;
+    height: 25px;
+    font-size: 12px;
+}
+
+#input-input:focus {
+    outline: none;
+}
+
+#input-images-micro {
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#input-images-micro-img {
+    height: 13px;
+    padding: 5px;
+}
+
+/* botones */
+
+#buttons {
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-button {
+    height: 5.5vh;
+    padding: 0 15px;
+    margin: 11px 4px;
+    font-size: 10px;
+    border: 0px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+.main-button:hover {
+    box-shadow: 0 0 2px lightgrey;
+}
+
+/* links bajo los botones */
+
+#links {
+    background-color: white;
+    height: 30vh;
+    font-size: 9px;
+    margin: 10px 0;
+}
+
+.links-link {
+    text-decoration: none;
+    margin: 5px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #f2f2f2;
+    height: 10vh;
+    font-size: 10px;
+    color: #70757a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer-text {
+    padding: 0 20px;
+}
+
+#footer-link {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px #dadce0 solid;
+}
+
+.footer-link-lr {
+    width: 30vw;
+}
+
+.footer-link-m {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-link-left {
+    font-size: 9px;
+}
+
+.footer-link-left-link {
+    padding: 7px;
+    text-decoration: none;
+    color: #70757a;
+}
+
+#footer-link-center-img {
+    height: 14px;
+    padding: 3px;
+}
+
+#footer-link-link {
+    display: flex    ;
+    align-items: center;
+    text-decoration: none;
+    font-size: 9px;
+    color:#70757a;
+}
+
+#footer-link-right {
+    display: flex;
+    justify-content: end;
+    font-size: 9px;
+}

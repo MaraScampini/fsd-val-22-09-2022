@@ -1,3 +1,47 @@
 body {
     background-color: white;
+    margin: 0 0 0 0;
+
+}
+.box {
+    float: left;
+   
+/* Desde aquí */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+/* Repasar esto para el ejercicio del pingüino */
+
+    border: 1px red solid;
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+}
+
+#div1 {
+    background-color: aqua;
+    border-radius: 100%;
+}
+
+#div2 {
+    background-color: green;
+    border-radius: 100%
+}
+
+#div3 {
+    background-color: pink;
+    border-radius: 100%
+}
+
+.div1-centro {
+    background-color: white;
+    width: 75px;    
+    height: 75px;
+    border: 1px solid red;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
